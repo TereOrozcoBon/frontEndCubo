@@ -1,0 +1,30 @@
+{
+  "name": "5_consumircubocliente",
+  "version": "1.0.0",
+  "description": "Front End para el consumo de API en .Net (Cubo-MDX)",
+  "main": "app.js",
+  "scripts": {
+    "start": "set NODE_ENV=production & node ./bin/www.js",
+    "start-dev": "DEBUG=front-end:* & nodemon ./bin/www.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TereOrozcoBon/frontEndCubo.git"
+  },
+  "author": "Tere Orozco Bon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TereOrozcoBon/frontEndCubo/issues"
+  },
+  "homepage": "https://github.com/TereOrozcoBon/frontEndCubo#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
